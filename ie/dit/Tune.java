@@ -49,6 +49,9 @@ public class Tune implements Player
 	
 	public void play()
 	{
-		
+		//as the interface method is a void method
+		//I have to manually print it out to the console
+		//using notation as that is the only thing that is to be printed
+		System.out.println(notation);
 	}
 }
