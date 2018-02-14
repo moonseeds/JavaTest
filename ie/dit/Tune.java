@@ -30,10 +30,21 @@ public class Tune
 		return notation;
 	}
 	
+	//toString class
 	public String toString()
 	{
-		
-		return x+","+title+","+altTitle;
+		String toBeReturned;
+		if(altTitle.isEmpty())
+		{
+			//checks if an alternative title is there if not then only returns
+			//the number and title
+			toBeReturned = x+", "+title;
+		} else {
+			//if alternative title is present then it will return
+			//number, title and the alternative title
+			toBeReturned =  x+","+title+","+altTitle;
+		}
+		return toBeReturned;
 	}
 	
 }
