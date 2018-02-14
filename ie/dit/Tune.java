@@ -25,7 +25,7 @@ public class Tune
 		return altTitle;
 	}
 	
-	public getNotation()
+	public String getNotation()
 	{
 		return notation;
 	}
